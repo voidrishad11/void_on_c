@@ -10,5 +10,5 @@ void main()
     d = 2*r ;
     c = 2*PI*r ;
     a = PI*r*r;
-    printf("\n\nThe Diameter of this circle is\t%.3f\nThe Circumference of this circle is\t%.3f\nThe Area of this circle is\t%.3f\n\n\n",d,c,a);
+    printf("\n\nThe Diameter of this circle is %.3f\nThe Circumference of this circle is %.3f\nThe Area of this circle is %.3f\n\n\n",d,c,a);
 }
