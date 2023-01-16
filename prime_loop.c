@@ -4,9 +4,9 @@ int main()
 {
 
     int m,n,j,i,k;
-    printf("Please Enter lower limit\n");
+    printf("Please Enter Lower limit\n");
     scanf("%d",&m);
-    printf("Please Enter npper limit\n");
+    printf("Please Enter Upper limit\n");
     scanf("%d",&n);
     for(i=m;i<=n;i++)
     {
