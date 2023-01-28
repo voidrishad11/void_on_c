@@ -13,5 +13,5 @@ void main()
         printf("%d",x);
         i=i/10;
     }
-    printf("\n\nTotal Digits are %d\n",x);
+    printf("\n\nTotal Digits are %d\n",c);
 }
