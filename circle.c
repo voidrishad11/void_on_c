@@ -8,8 +8,10 @@ inside the printf statement(s) and use the conversion specifier %f.*/
 
 void main()
 {
-    float r;
+    float r,c,a;
     printf("Please Enter the radius of the circle\n");
     scanf("%f",&r);
-    printf("\n\nThe Diameter of the circle is\t\t:\t%.3f\nThe Circumference of the circle is\t:\t%.3f\nThe Area of the circle is\t\t:\t%.3f\n\n\n",2*r,2*PI*r,PI*r*r);
+    c=2*PI*r;
+    a=(PI*pow(r,2));
+    printf("\n\nThe Circumference of the circle is\t:\t%.3f\nThe Area of the circle is\t\t:\t%.3f\n\n\n",c,a);
 }

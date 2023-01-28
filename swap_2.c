@@ -10,6 +10,7 @@ void main ()
    x=a;
    a=b;
    b=x;
-   printf("A is now\t\n");
+   printf("A is now\t%d\n",a);
+   printf("B is now\t%d\n",b);
 
 }
