@@ -3,14 +3,14 @@
 void main ()
 {
    int a,b,x;
-   printf("Enter A :\t\n");
+   printf("Enter A \t:");
    scanf("%d",&a);
-   printf("Enter B :\t\n");
+   printf("Enter B \t:");
    scanf("%d",&b);
    x=a;
    a=b;
    b=x;
-   printf("A is now\t%d\n",a);
-   printf("B is now\t%d\n",b);
+   printf("\n\nA is now\t:%d\n",a);
+   printf("B is now\t:%d\n",b);
 
 }
