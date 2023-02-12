@@ -13,7 +13,7 @@ void main()
     }
     for(i=0;i<n-1;i++)
     {
-        for(j=i+1;j<n;j--)
+        for(j=i+1;j<n;j++)
         {
             if(a[i]>a[j])
             {
@@ -26,6 +26,6 @@ void main()
     printf("\n");
     for (i=0;i<n;i++)
     {
-        printf("%d",a[i]);
+        printf("%d\n",a[i]);
     }
 }

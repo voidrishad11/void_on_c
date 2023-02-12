@@ -24,7 +24,7 @@ void main()
         }
     }
     printf("\n");
-    for (i=0;i<n;i++)
+    for (i=n-1;i>=0;i--)
     {
         printf("%d\t",ara[i]);
     }
